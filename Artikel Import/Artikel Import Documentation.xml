@@ -1,0 +1,2551 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Artikel Import</name>
+    </assembly>
+    <members>
+        <member name="T:Artikel_Import.Properties.Resources">
+            <summary>
+              A strongly-typed resource class, for looking up localized strings, etc.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.ResourceManager">
+            <summary>
+              Returns the cached ResourceManager instance used by this class.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Culture">
+            <summary>
+              Overrides the current thread's CurrentUICulture property for all
+              resource lookups using this strongly typed resource class.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Artikel">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Artikel_Allgemein">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Artikel_Einkauf">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Artikel_Verkauf">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.AutoCloseMessagePopUp">
+            <summary>
+              Looks up a localized string similar to This message gets automatically closed in .
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.ChooseFileFirst">
+            <summary>
+              Looks up a localized string similar to Please choose a file first..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.CommandsPerSecond">
+            <summary>
+              Looks up a localized string similar to CommandsPerSecond.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.ConfirmClearDatabase">
+            <summary>
+              Looks up a localized string similar to Are you sure, you want to clear the temp database?.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.ConfirmSendToRuntime">
+            <summary>
+              Looks up a localized string similar to Are you sure, you want to send the Articles to the Realtime Database? THIS ACTION CAN&apos;T BE REVERSED!.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.CsvIsMissingRows">
+            <summary>
+              Looks up a localized string similar to The CSV is missing rows:.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.CSVTooManyColumns">
+            <summary>
+              Looks up a localized string similar to This CSV has too many columns..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.EnterDictName">
+            <summary>
+              Looks up a localized string similar to Please enter a dictionary name..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.EnterName">
+            <summary>
+              Looks up a localized string similar to Please enter a name..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.EnterPassword">
+            <summary>
+              Looks up a localized string similar to Please enter the database password:.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Error">
+            <summary>
+              Looks up a localized string similar to Fatal error .
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.ErrorsWhileImporting">
+            <summary>
+              Looks up a localized string similar to Errors While Importing .
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.ExecutionTook">
+            <summary>
+              Looks up a localized string similar to ExecutionTook.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.FailedToLoadDictionaryKeyFromCSV">
+            <summary>
+              Looks up a localized string similar to Failed to load Dictionary Keys from CSV. Getting keys from mapping instead..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.FailedToParseEAN">
+            <summary>
+              Looks up a localized string similar to Wrong EAN format:.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.ImportErrorRow">
+            <summary>
+              Looks up a localized string similar to There was an import error in row .
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MappingIsMissingEssentialPair">
+            <summary>
+              Looks up a localized string similar to The mapping is missing pairs:.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MassImportBrowse">
+            <summary>
+              Looks up a localized string similar to Mass Import open CSV....
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MassimportDone">
+            <summary>
+              Looks up a localized string similar to Mass Import done..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MassImportNotVerified">
+            <summary>
+              Looks up a localized string similar to does not match mapping.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MassImportStart">
+            <summary>
+              Looks up a localized string similar to Starting mass import:.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MassImportUnknownMapping">
+            <summary>
+              Looks up a localized string similar to could not find mapping.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MissingArtikelNr">
+            <summary>
+              Looks up a localized string similar to Could not find any values for ArtikelNr..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MissingBestellNr">
+            <summary>
+              Looks up a localized string similar to Could nat find any values for BestellNr..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MissingDatenlieferant">
+            <summary>
+              Looks up a localized string similar to Could not find any values for Datenlieferant..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.MissingEAN">
+            <summary>
+              Looks up a localized string similar to Could not find any values for EAN..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.NoInternetConnection">
+            <summary>
+              Looks up a localized string similar to No internet or database connection..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Preisgruppen">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.RabattEinkauf">
+            <summary>
+              Looks up a localized resource of type System.Drawing.Bitmap.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Rate">
+            <summary>
+              Looks up a localized string similar to Rate.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.RememberEDE">
+            <summary>
+              Looks up a localized string similar to Please import EDE before exporting..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.RenameArticles">
+            <summary>
+              Looks up a localized string similar to Do you want to rename the ArticleNr?.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.SelectMapping">
+            <summary>
+              Looks up a localized string similar to Please select a mapping..
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.Successfull">
+            <summary>
+              Looks up a localized string similar to Successfull.
+            </summary>
+        </member>
+        <member name="P:Artikel_Import.Properties.Resources.WrongPassword">
+            <summary>
+              Looks up a localized string similar to You entered the wrong password..
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.MassImportFromCsvToTempDb.MassImport(System.String)">
+            <summary>
+            Imports a number of <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> s and <see cref="T:Artikel_Import.src.Backend.CSV"/> s. They are in a CSV
+            path \t mapping name
+            </summary>
+            <param name="path">Path to the CSV with mappingNames and paths</param>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Automatic.Worker.Export">
+            <summary>
+            Used to signal the <see cref="T:Artikel_Import.src.Backend.Automatic.Worker"/> that it will export. Value: EXPORT </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Automatic.Worker.Import">
+            <summary>
+            Used to signal the <see cref="T:Artikel_Import.src.Backend.Automatic.Worker"/> that it will import. Value: IMPORT
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.Worker.#ctor(System.String,System.Boolean)">
+            <summary>
+            Create a new Worker for exporting. Starts <see
+            cref="M:Artikel_Import.src.Backend.ExportFromTempDbToRealDb.Export(System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)"/>.
+            </summary>
+            <param name="task">has to be <see cref="F:Artikel_Import.src.Backend.Automatic.Worker.Export"/></param>
+            <param name="renameArticles">
+            when true, starts <see cref="T:Artikel_Import.src.Backend.ArtikelNrReplace"/> after export
+            </param>
+            <exception cref="T:System.Exception">when <paramref name="task"/> has the wrong value</exception>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.Worker.#ctor(System.String,Artikel_Import.src.Backend.Objects.Mapping,System.String)">
+            <summary>
+            Create a new Worker for importing. Starts <see cref="M:Artikel_Import.src.Backend.Automatic.MassImportFromCsvToTempDb.MassImport(System.String)"/>.
+            </summary>
+            <param name="task">has to be <see cref="F:Artikel_Import.src.Backend.Automatic.Worker.Import"/></param>
+            <param name="mapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> that fits the CSV headerRow</param>
+            <param name="csvPath">Path to the CSV</param>
+            <exception cref="T:System.Exception">when <paramref name="task"/> has the wrong value</exception>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.Worker.Cancel">
+            <summary>
+            Cancels the task the <see cref="F:Artikel_Import.src.Backend.Automatic.Worker.backgroundWorker"/> executes.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.Worker.BackgroundWorker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            This event handler is where the actual, potentially time-consuming work is done.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <exception cref="T:System.Exception">when an unknown argument was given</exception>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.Worker.BackgroundWorker_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+            <summary>
+            This event handler updates the progress bar.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.Worker.BackgroundWorker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+            <summary>
+            This event handler deals with the results of the background operation.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Automatic.Worker.InitializeBackgroundWorker">
+            <summary>
+            Set up the BackgroundWorker object by attaching event handlers.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CleanArticlesInRealDb.CleanAll(System.Int32)">
+            <summary>
+            Executes all clean operations that are available
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CleanArticlesInRealDb.RenameArticles(System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs,System.Int32)">
+            <summary>
+            Renames Articles
+            </summary>
+            <param name="maxRunningtimeHours">
+            amount of hours the renaming will run for, if it didn't finish before that
+            </param>
+            <param name="worker"></param>
+            <param name="e"></param>
+            <returns>report of all the renaming commands</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CleanArticlesInRealDb.MergeArticles(System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Finds articles that have duplicates AND loads them into the eNVenta merger. This needs to be executed in eNVenta later at Werkzeuge/Artikel zusammenfuehren.
+            Only fills it up, because merging more than 100 articles leads to errors in eNVenta.
+            </summary>
+            <param name="worker"></param>
+            <param name="e"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.ArtikelNrReplace">
+            <summary>
+            Replace Article numbers in every table AND column in order to rename it without any issue.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ArtikelNrReplace.#ctor">
+            <summary>
+            Prepare ArtikelNrReplace AND create instance
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ArtikelNrReplace.Replace(System.String,System.String)">
+            <summary>
+            This does an update on every location, not only the one containing the <paramref
+            name="oldArtikelNr"/>. This will lead to a less than 100% success rate.
+            </summary>
+            <remarks>Warning this will take a long time to execute</remarks>
+            <param name="oldArtikelNr">The ArtikelNr that should be replaced</param>
+            <param name="newArtikelNr">Will be used to replace the <paramref name="oldArtikelNr"/></param>
+            <returns>SqlReport of command execution success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ArtikelNrReplace.GetLocations(System.String)">
+            <summary>
+            Loads the <see cref="T:Artikel_Import.src.Backend.SqlLocation"/> s FROM a <paramref name="csvPath"/>.
+            </summary>
+            <param name="csvPath">the CSV file (TABLE;COLUMN)</param>
+            <returns>Array of <see cref="T:Artikel_Import.src.Backend.SqlLocation"/></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.SqlLocation">
+            <summary>
+            A Location in the SQL Tables containing the Table AND Column
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlLocation.column">
+            <summary>
+            Column of the SqlLocation
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlLocation.table">
+            <summary>
+            Table of the SqlLocation
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlLocation.#ctor(System.String,System.String)">
+            <summary>
+            Create an instance of the SqlLocation
+            </summary>
+            <param name="table"></param>
+            <param name="column"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlLocation.ToString">
+            <summary>
+            Creates string representation
+            </summary>
+            <returns>string</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn">
+            <summary>
+            Returns a value form a CSV row. Which column is being decided by finding the <see
+            cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn.columnName"/> in the header row,if Warnig got triggerd Import  <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn.columnNameAlternative"/>.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn.#ctor(System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Create a new PairAlternativeCsvColumn  without a factor. The factor will be set to 1 and during
+            import ignored.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName the values will be retrieved from</param>
+            <param name="columnNameAlternative">ColumnName the values will be retrieved from if Warnig got triggerd in columnName </param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            returns the corresponding value from <paramref name="dataRow"/> finds index using.
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn.ToString">
+            <summary>
+            Converts the Pair to a string for easy debugging
+            </summary>
+            <returns>pair as a string</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairAlternativeCsvColumn)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks column and factor
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue">
+            <summary>
+            A pair that gets information from a <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue.columnName"/>, where a discountvalue
+            is being applied to the value.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue.#ctor(System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Create a new PairCsvColumnWithDiscountValue.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName the values will be retrieved from</param>
+            <param name="discountColumnName">ColumnName of the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> values</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Finds the value in the <paramref name="dataRow"/> and deducts the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/>
+            from it.
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns>Tuple containing value and bool isSuccessful</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue.ToString">
+            <summary>
+            Returns a string that contains all the important information to this pair.
+            </summary>
+            <returns>string representation of this pair</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscountValue)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks discount and column name
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue">
+            <summary>
+            A changing fixed value pair is similar to a <see cref="T:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue"/>, but the value
+            needs to be changed every time when a new price list gets imported, for example price
+            expiration dates. This will also lead to showing the <see
+            cref="F:Artikel_Import.src.Frontend.MainForm.tabPageValues"/> before upload.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue.#ctor(System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Create a new PairChangingFixedValue with a value
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue.#ctor(System.String,System.Boolean,System.String)">
+            <summary>
+            Create a new PairChangingFixedValue without a value. The value will need to be entered
+            before import.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Returns the value
+            </summary>
+            <param name="dataRow">ignored</param>
+            <param name="header">ignored</param>
+            <param name="fields"></param>
+            <param name="mapping">ignored</param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue.ToString">
+            <summary>
+            Converts the Pair to a string for easy debugging
+            </summary>
+            <returns>pair as a string</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks value
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns">
+            <summary>
+            Pair that takes two columns ( <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.columnNameA"/> and <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.columnNameB"/>) and
+            returns the first column and the second column in one string.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.#ctor(System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Create a new PairConcatCsvColumns.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnNameA">ColumnName the value will be retrieved from</param>
+            <param name="columnNameB">ColumnName the value will be added to value</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            returns the corresponding value by adding two values from <paramref name="dataRow"/>
+            from <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.columnNameA"/> and <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.columnNameB"/>.
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.ToString">
+            <summary>
+            Converts the Pair to a string for easy debugging
+            </summary>
+            <returns>pair as a string</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairConcatCsvColumns)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks columns A and B
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn">
+            <summary>
+            Returns a value form a CSV row. Which column is being decided by finding the <see
+            cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.columnName"/> in the header row.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.#ctor(System.String,System.Boolean,System.String,System.String,System.Double)">
+            <summary>
+            Create a new PairCsvColumn.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName the values will be retrieved from</param>
+            <param name="factor">Factor to multiply the values with. Will be skipped if 1</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.#ctor(System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Create a new PairCsvColumn. Will create FormatException if the <paramref name="factor"/>
+            can't be parsed to <see cref="T:System.Double"/>.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName the values will be retrieved from</param>
+            <param name="factor">Factor to multiply the values with. Will be skipped if "1"</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.#ctor(System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Create a new PairCsvColumn without a factor. The factor will be set to 1 and during
+            import ignored.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName the values will be retrieved from</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            returns the corresponding value from <paramref name="dataRow"/> finds index using.
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.ToString">
+            <summary>
+            Converts the Pair to a string for easy debugging
+            </summary>
+            <returns>pair as a string</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumn)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks column and factor
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount">
+            <summary>
+            A pair that gets information from a <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount.columnName"/>, where a <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/>
+            is being applied to the value. This discount is being determined by the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount.#ctor(System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Create a new PairCsvColumnWithDiscount.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName the values will be retrieved from</param>
+            <param name="discountColumnName">ColumnName of the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> keys</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Finds the value in the <paramref name="dataRow"/> and deducts the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/>
+            from it.
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns>Tuple containing value and bool isSuccessful</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount.ToString">
+            <summary>
+            Returns a string that contains all the important information to this pair.
+            </summary>
+            <returns>string representation of this pair</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairCsvColumnWithDiscount)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks discount and column name
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairDictionaryValue">
+            <summary>
+            A Dictionary value returns the value that the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> selected
+            returns when the source field contains a name of the dictionary.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairDictionaryValue.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDictionaryValue.#ctor(System.String,System.Boolean,System.String,System.String,System.String)">
+            <summary>
+            Create a new PairDictionaryValue.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName the values will be retrieved from</param>
+            <param name="dictionaryName">ColumnName of the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> keys</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDictionaryValue.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Finds the dictionary key in the <paramref name="dataRow"/> and returns the <see
+            cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> value
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns>string value and bool isSucessful</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDictionaryValue.ToString">
+            <summary>
+            Returns a string that contains all the important information to this pair.
+            </summary>
+            <returns>string representation of this pair</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDictionaryValue.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairDictionaryValue)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks column and dictionary
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairDiscountValue">
+            <summary>
+            A field value that returns the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> amount linked to the discount name
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairDiscountValue.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDiscountValue.#ctor(System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Create a new PairDiscountVaule that returns the value of a <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/>
+            depending on its key
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="columnName">ColumnName that contains the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> keys</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDiscountValue.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Finds the discount key in the <paramref name="dataRow"/> and returns the <see
+            cref="T:Artikel_Import.src.Backend.Objects.Discount"/> value
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns>string discount value and bool isSuccessful</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDiscountValue.ToString">
+            <summary>
+            Returns a string that contains all the important information to this pair.
+            </summary>
+            <returns>string representation of this pair</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairDiscountValue.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairDiscountValue)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks column
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue">
+            <summary>
+            Always returns a <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue.value"/>. Ignoring the dataRow.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue.type">
+            <summary>
+            PairType as a string
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue.#ctor(System.String,System.Boolean,System.String,System.String)">
+            <summary>
+            Create a new PairFixedValue.
+            </summary>
+            <param name="mappingName"></param>
+            <param name="isOverwrite"></param>
+            <param name="targetField"></param>
+            <param name="value">The value that will be returned</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Returns the <see cref="F:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue.value"/>
+            </summary>
+            <param name="dataRow"></param>
+            <param name="header"></param>
+            <param name="fields"></param>
+            <param name="mapping"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue.ToString">
+            <summary>
+            Converts the Pair to a string for easy debugging
+            </summary>
+            <returns>pair as a string</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue.Equals(Artikel_Import.src.Backend.Objects.PairTypes.PairFixedValue)">
+            <summary>
+            same as <see cref="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)"/>, but also checks value
+            </summary>
+            <param name="pair"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.CustomDictionary">
+            <summary>
+            A Dictionary with a <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> name and a <see cref="F:Artikel_Import.src.Backend.Objects.CustomDictionary.name"/> describing itself.
+            The dictionary can be edited in the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageDictionary"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.#ctor(System.String,System.String)">
+            <summary>
+            Get a dictionary from the database or an empty one if none exists
+            </summary>
+            <param name="mapping">name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> this dictionary belongs to</param>
+            <param name="name">name of the new dictionary</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.#ctor(System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Create a filled CustomDictionary
+            </summary>
+            <param name="mapping">name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> this dictionary belongs to</param>
+            <param name="name">name of the new dictionary</param>
+            <param name="keyValuePairs">dictionary this CustomDictionary contains</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.GetList(System.String)">
+            <summary>
+            List of all available dictionaries for the <paramref name="mapping"/>
+            </summary>
+            <param name="mapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> that gets searched</param>
+            <returns>list of dictionary <see cref="F:Artikel_Import.src.Backend.Objects.CustomDictionary.name"/> s</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.AddPair(System.String,System.String)">
+            <summary>
+            Adds a <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> to the selected dictionary
+            </summary>
+            <param name="key">value that gets replaced</param>
+            <param name="value">value that will get returned</param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.GetKeys">
+            <summary>
+            Get a list of keys of the dictionary
+            </summary>
+            <returns>string array of keys</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.GetName">
+            <summary>
+            Name of the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/>
+            </summary>
+            <returns><see cref="T:System.String"/> representation of the dictionary</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.GetValue(System.String)">
+            <summary>
+            Returns the value that the key links to
+            </summary>
+            <param name="key">key to the value of the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/></param>
+            <returns>string value</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.Remove">
+            <summary>
+            Deletes the complete <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> from the database
+            </summary>
+            <returns><see cref="T:Artikel_Import.src.Backend.Objects.SqlReport"/> of success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.CustomDictionary.RemovePair(System.String)">
+            <summary>
+            Deletes a keyValuePair from the dictionary in the database
+            </summary>
+            <param name="key">key of the pair that gets removed</param>
+            <returns>SqlReport of success</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.Discount">
+            <summary>
+            <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s are being used to apply a discount on a price in a row depending on
+            which discountKey is in a different column in that row. This way different discount can be
+            applied on the same upload. All discount also get saved into <see
+            cref="F:Artikel_Import.src.Backend.Constants.TableEinkauf"/>, in order to make them visible in eNVenta and not just fill
+            in the already calculated price. The discount can be edited in the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageDiscounts"/>.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Discount.discount">
+            <summary>
+            percentage! of the discount 20 = 20% discount = price*0.80
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Discount.key">
+            <summary>
+            name of this discount.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Discount.mapping">
+            <summary>
+            name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>, the discount belongs to.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Create a new Discount.
+            </summary>
+            <param name="mapping">name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>, the discount belongs to</param>
+            <param name="key">name of the discount. Can't be longer than 8 chars.</param>
+            <param name="discount">string percentage of the discount 20 = 20%</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.#ctor(System.String,System.String,System.Int32)">
+            <summary>
+            Create a new Discount.
+            </summary>
+            <param name="mapping">name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>, the discount belongs to</param>
+            <param name="key">name of the discount. Can't be longer than 8 chars</param>
+            <param name="discount">int percentage of the discount 20 = 20%</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.GetDiscountByKey(System.String,System.String,Artikel_Import.src.Backend.Objects.Discount[])">
+            <summary>
+            Find a discount by its <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> and name.
+            </summary>
+            <param name="mapping">name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/></param>
+            <param name="discountKey"></param>
+            <param name="discounts">list of <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s</param>
+            <returns>the found discount</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.GetDiscountAmount">
+            <summary>
+            Discount Amount as int.
+            </summary>
+            <returns>amount</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.GetMapping">
+            <summary>
+            Name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> the discount belongs to.
+            </summary>
+            <returns>mapping name</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.GetName">
+            <summary>
+            Key of the discount / name.
+            </summary>
+            <returns>name shortened to 8 chars</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.Insert">
+            <summary>
+            Insert the Discount into the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportDiscounts"/>.
+            </summary>
+            <returns>of success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.Remove">
+            <summary>
+            Delete the Discount form the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportDiscounts"/>.
+            </summary>
+            <returns>of success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Discount.ToString">
+            <summary>
+            Returns a string that describes the Discount Object.
+            </summary>
+            <returns>Description of the Discount</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.CompareFieldTarget">
+            <summary>
+            Used for sorting fields.
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.Field">
+             <summary>
+            A field shows the relation of the TempDB to the RuntimeDB and is also being used in making sure values fit the RuntimeDB.
+            Saved in the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportFields"/>.
+            The field can be edited in the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageFields"/>.
+             </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.Description">
+            <summary>
+            Additional information to the field
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.isNullable">
+            <summary>
+            if is true, null can be inserted into the field.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.isNVL">
+            <summary>
+            if this is true, the field does not insert null, but keeps the old value
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.Name">
+            <summary>
+            the name of the field this gets referenced by the pairs
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.Scale">
+            <summary>
+            amount of digits after the comma, default is 0
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.Size">
+            <summary>
+            the size of the field in the real time db, important so that it doesn't trow errors when
+            trying to but in a bigger value
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.SqlType">
+            <summary>
+            either number, varchar2 or date used for converting values
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Field.TargetInRuntime">
+            <summary>
+            in the real time db tablename.columnname
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.#ctor(System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean,System.Boolean)">
+            <summary>
+            Create a new Field. A field shows the relation of the TempDB to the RuntimeDB and is
+            also being used in making sure values fit the RuntimeDB.
+            </summary>
+            <param name="Name">this gets referenced by the <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s</param>
+            <param name="TargetInRuntime">tablename.columnname</param>
+            <param name="Description"></param>
+            <param name="SqlType">either number, varchar2 or date used for converting values</param>
+            <param name="Size">
+            important so that it doesn't trow errors when trying to but in a bigger value
+            </param>
+            <param name="Scale">amount of digits after the comma, default is 0</param>
+            <param name="isNVL">
+            if this is true, the field does not insert null, but keeps the old value
+            </param>
+            <param name="isNullable">when this is true, null can be inserted into the field</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.CleanPrice(System.String)">
+            <summary>
+            Changes a value so it gets accepted by the database
+            </summary>
+            <param name="price"></param>
+            <returns>cleaned <paramref name="price"/></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetFieldByName(Artikel_Import.src.Backend.Objects.Field[],System.String)">
+            <summary>
+            Get a Field instance by name
+            </summary>
+            <param name="fields">array of fields to search</param>
+            <param name="name">name to search</param>
+            <returns>Field with the searched name</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetFieldByTarget(Artikel_Import.src.Backend.Objects.Field[],System.String)">
+            <summary>
+            Get a field instance by target column in the real time db
+            </summary>
+            <param name="fields">array of fields to search</param>
+            <param name="target">target column to search</param>
+            <returns>Field with the searched target</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetFieldsByName(Artikel_Import.src.Backend.Objects.Field[],System.String)">
+            <summary>
+            Get all fields with a certain name
+            </summary>
+            <param name="fields"></param>
+            <param name="name"></param>
+            <returns>Array of fields with matching name</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.IsDateFormat(System.String)">
+            <summary>
+            returns true if the <paramref name="value"/> has the correct date format
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetNames">
+            <summary>
+            Returns all field names
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.LoadFields">
+            <summary>
+            Returns all fields in the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportFields"/>
+            </summary>
+            <returns>all fields in the database</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.MatchValueSize(System.String,System.Int32)">
+            <summary>
+            Matches a string value to the maximum char size of the field. Cuts of the value at the
+            end if its to long.
+            </summary>
+            <param name="value">that will be shortened in order to match size</param>
+            <param name="size">maximum amount of chars</param>
+            <returns>value cut of at the end</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.AddValueTypeConversion(System.String)">
+            <summary>
+            Adds the value type conversion for SQL to the value. Depending on the <see
+            cref="F:Artikel_Import.src.Backend.Objects.Field.SqlType"/> of this field.
+            </summary>
+            <example>value = TO_NUMBER('value')</example>
+            <param name="value"></param>
+            <returns><paramref name="value"/> with type conversion</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetDescription">
+            <summary>
+            Additional information to the field
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetName">
+            <summary>
+            the name of the field this gets referenced by the <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s (key value)
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetScale">
+            <summary>
+            amount of digits after the comma, default is 0. Important for prices.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetSize">
+            <summary>
+            size of the field in the real time db, important so that it doesn't trow errors when
+            trying to but in a bigger value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetSqlType">
+            <summary>
+            either number, varchar2 or date used for converting values
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.GetTargetInRuntime">
+            <summary>
+            in the real time db tablename.columnname
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.Insert">
+            <summary>
+            Adds the field into the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportFields"/> and adds a
+            column <see cref="F:Artikel_Import.src.Backend.Constants.TableImportArticles"/> or <see cref="F:Artikel_Import.src.Backend.Constants.TableImportEinkauf"/>
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.IsNullable">
+            <summary>
+            is true, when null can be inserted into the field.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.IsNVL">
+            <summary>
+            if this is true, the field does not insert null, but keeps the old value
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.MatchValueSize(System.String)">
+            <summary>
+            Matches a string value to the maximum char size of the field. Cuts of the value at the
+            end if its to long.
+            </summary>
+            <param name="value"></param>
+            <returns>value cut of at the end</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.Remove">
+            <summary>
+            Removes the Field from the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportFields"/> and also
+            removes the column from either <see cref="F:Artikel_Import.src.Backend.Constants.TableImportArticles"/> or <see cref="F:Artikel_Import.src.Backend.Constants.TableImportEinkauf"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Field.ToString">
+            <summary>
+            Returns a string that contains all the important information to this field.
+            </summary>
+            <returns>string representation of this field</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.Mapping">
+            <summary>
+            Collection of <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s used for showing relation of a certain CSV file and the
+            TempDB. Also contains <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> and <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/>.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Mapping.essentialPairs">
+            <summary>
+            A collection of <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s every mapping needs to have.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Mapping.dictionaries">
+            <summary>
+            Dictionary of all <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> linked to this mapping. The name is the
+            name of the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.#ctor(System.String)">
+            <summary>
+            Empty collection of <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s and <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s
+            </summary>
+            <param name="name">how the mapping gets referenced</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.#ctor(System.String,Artikel_Import.src.Backend.Objects.Pair[])">
+            <summary>
+            A collection of <paramref name="pairs"/> and empty <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s
+            </summary>
+            <param name="name">how the mapping gets referenced</param>
+            <param name="pairs">are set to the mapping</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.GetMappings">
+            <summary>
+            Loads all mappings from the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportMappings"/>
+            </summary>
+            <returns>mapping array containing all mappings from the database</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.Add(Artikel_Import.src.Backend.Objects.Discount)">
+            <summary>
+            Adds a <paramref name="discount"/> to the mapping and inserts it in the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportDiscounts"/>
+            </summary>
+            <param name="discount">to add</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.Add(Artikel_Import.src.Backend.Objects.Pair)">
+            <summary>
+            Adds a <paramref name="pair"/> to the mapping and inserts it in the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportMappings"/>
+            </summary>
+            <param name="pair">to get added</param>
+            <returns>true when was successful</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.Delete">
+            <summary>
+            Deletes the mapping from the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportMappings"/> and
+            all the <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s, <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s and <see
+            cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> s associated with it.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.Delete(Artikel_Import.src.Backend.Objects.Discount)">
+            <summary>
+            Deletes a <paramref name="discount"/> from the mapping and database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportDiscounts"/>.
+            </summary>
+            <param name="discount"><see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> to delete</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.Delete(Artikel_Import.src.Backend.Objects.Pair)">
+            <summary>
+            Removes the <paramref name="pair"/> from the mapping and deletes it from the database
+            <see cref="F:Artikel_Import.src.Backend.Constants.TableImportMappings"/>.
+            </summary>
+            <param name="pair"><see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> to delete</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.GetDiscounts">
+            <summary>
+            <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s of this mapping
+            </summary>
+            <returns>discount array</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.GetName">
+            <summary>
+            Name of this Mapping.
+            </summary>
+            <returns>name</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.GetPairs">
+            <summary>
+            <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s of this mapping.
+            </summary>
+            <returns>pair array</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.LoadDiscounts">
+            <summary>
+            Get <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s associated with this mapping form the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportDiscounts"/>.
+            </summary>
+            <returns>discount array containing all discounts associated with this mapping</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.LoadPairs">
+            <summary>
+            Get <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s associated with this mapping from the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportMappings"/>.
+            </summary>
+            <returns>pair array of pairs from the database</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Mapping.ToString">
+            <summary>
+            Returns a <see cref="T:System.String"/> representation of this mapping.
+            </summary>
+            <returns>string describing the mapping</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.MappingObject">
+            <summary>
+            A <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> contains three different Objects <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/>, <see
+            cref="T:Artikel_Import.src.Backend.Objects.Discount"/> and <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> They all have some functionality in
+            common. In order to make sure they have those functionalities they are children of a MappingObject.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.MappingObject.GetName">
+            <summary>
+            Returns a string that makes the object distinct from other objects of its type that
+            belongs to the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>.
+            </summary>
+            <returns>name</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.MappingObject.Insert">
+            <summary>
+            Inserts the object into the database.
+            </summary>
+            <returns>Report of Success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.MappingObject.Remove">
+            <summary>
+            Removes the object from the database.
+            </summary>
+            <returns>Report of Success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.MappingObject.ToString">
+            <summary>
+            Creates a string of object values for mostly debugging purpose.
+            </summary>
+            <returns>string representation of the object</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.Pair">
+            <summary>
+            A pair is part of a <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> and shows the connection between a <see
+            cref="T:Artikel_Import.src.Backend.CSV"/> file and the Tables <see cref="F:Artikel_Import.src.Backend.Constants.TableArtikel"/> or <see
+            cref="F:Artikel_Import.src.Backend.Constants.TableEinkauf"/>. It is a child of the <see cref="T:Artikel_Import.src.Backend.Objects.MappingObject"/>. The Pairs
+            can be edited in the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageEditMapping"/>.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Pair.isOverwrite">
+            <summary>
+            when True the value in the temp database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportArticles"/>/
+            <see cref="F:Artikel_Import.src.Backend.Constants.TableImportEinkauf"/> gets overwritten, when False the value gets
+            only added on.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Pair.mappingName">
+            <summary>
+            <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> this pair belongs to
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Pair.pairType">
+            <summary>
+            <see cref="N:Artikel_Import.src.Backend.Objects.PairTypes"/> of this pair.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Pair.targetField">
+            <summary>
+            Name of the <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> the value gets inserted into.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Objects.Pair.regexRemoveDuplicateSpaces">
+            <summary>
+            Used for removing duplicate spaces
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.#ctor(System.String,System.String,System.Boolean,System.String)">
+            <summary>
+            Creates a new pair.
+            </summary>
+            <param name="pairType">type of pair</param>
+            <param name="mappingName"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> the pair belongs to</param>
+            <param name="isOverwrite">
+            when True the value in the temp database gets overwritten, when False the value gets
+            only added on insert
+            </param>
+            <param name="targetField">column the value gets inserted into</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.GetPairByTargetField(Artikel_Import.src.Backend.Objects.Pair[],System.String)">
+            <summary>
+            Gets a <paramref name="pairs"/> by its <paramref name="targetField"/> string
+            </summary>
+            <param name="pairs">array of pairs that will be searched</param>
+            <param name="targetField">string thats being looked for</param>
+            <returns>
+            <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> that was found. Returns null if nothing was returned, you need to
+            handle that!
+            </returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.GetUnknownPair(System.String,System.String,System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates a Pair out of values
+            </summary>
+            <param name="mappingName">Name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> the pair belongs to</param>
+            <param name="pairType">The type of pair <see cref="N:Artikel_Import.src.Backend.Objects.PairTypes"/></param>
+            <param name="targetField">Name of the <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> the pair moves values into</param>
+            <param name="source">The values that get inserted into the <paramref name="targetField"/></param>
+            <param name="overwrite">If the pair overwrites values in the TempDb</param>
+            <param name="additionalSource">Additional information needed</param>
+            <returns>A pair containing all the values</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.Sort(Artikel_Import.src.Backend.Objects.Pair[])">
+            <summary>
+            Sorts an array of pairs by their pair type
+            </summary>
+            <param name="unsortedPairs"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.GetMappingName">
+            <summary>
+            Name of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> this pair belongs to.
+            </summary>
+            <returns>name of the mapping</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.GetName">
+            <summary>
+            Returns a unique name for this pair.
+            </summary>
+            <returns>Name of the Pair</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.GetPairType">
+            <summary>
+            Returns the type of pair as a string <see cref="N:Artikel_Import.src.Backend.Objects.PairTypes"/>.
+            </summary>
+            <returns>PairType name</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.GetTargetField">
+            <summary>
+            Returns the <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> the pair references.
+            </summary>
+            <returns>name of the field</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.GetValueFromRow(System.String[],System.String[],Artikel_Import.src.Backend.Objects.Field[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Returns a value from an <paramref name="dataRow"/>, which value is being chosen depends
+            on the pair and <paramref name="fields"/>. This is the heart of the CSV import.
+            </summary>
+            <param name="dataRow">the row of the CSV</param>
+            <param name="header">the header/first row of the CSV</param>
+            <param name="fields">all fields</param>
+            <param name="mapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> thats being imported on</param>
+            <returns>the string is the value and the bool shows if the function was successful</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.Insert">
+            <summary>
+            Inserts the pair into the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportMappings"/>
+            </summary>
+            <returns>SqlReport</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.IsOverwrite">
+            <summary>
+            when True the value in the temp database gets overwritten, when False the value gets
+            only added on insert
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.Remove">
+            <summary>
+            Removes the pair from the database <see cref="F:Artikel_Import.src.Backend.Constants.TableImportMappings"/>.
+            </summary>
+            <returns>SqlReport</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.Pair.Equals(Artikel_Import.src.Backend.Objects.Pair)">
+            <summary>
+            Returns true if all values are equal
+            </summary>
+            <param name="pair">pair that will be compared with this pair</param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.SqlReport">
+            <summary>
+            Shows the success of the execution of <see cref="T:Artikel_Import.src.Backend.SQL"/> queries and commands more easily.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.SqlReport.#ctor(System.Int32,System.Int32,System.Int64)">
+            <summary>
+            Create a SqlReport to more easily show the success of the execution of <see cref="T:Artikel_Import.src.Backend.SQL"/>
+            queries and commands.
+            </summary>
+            <param name="initiatedCommands">amount of commands initiated</param>
+            <param name="successfulCommands">amount of successful executed commands</param>
+            <param name="executionTimeSec">amount of seconds the execution took</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.SqlReport.Empty">
+             <summary>
+            
+             </summary>
+             <returns>Empty SqlReport</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.SqlReport.GetExecTime">
+            <summary>
+            Seconds it took to execute the commands
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.SqlReport.GetInitiated">
+            <summary>
+            amount of commands that got initiated/executed
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.SqlReport.GetSuccessful">
+            <summary>
+            amount of successful executed commands
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.SqlReport.ToString">
+            <summary>
+            Returns the Report as a string.
+            </summary>
+            <returns>Report string</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.SqlReport.WasSuccessful">
+            <summary>
+            Returns true when the report shows that every command was executed successfully
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Objects.UpsertCommand">
+            <summary>
+            Upsert Commands are being used to interact with the OrcaleSQL Database using <see
+            cref="T:Artikel_Import.src.Backend.SQL"/>. Every time a <see cref="T:Artikel_Import.src.Backend.Objects.Field"/>/ <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/>/ <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>/
+            <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/>/ <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> gets changed or articles get moved in
+            the TempDB by <see cref="T:Artikel_Import.src.Backend.ImportFromCsvToTempDb"/> or RuntimeDB by <see
+            cref="T:Artikel_Import.src.Backend.ExportFromTempDbToRealDb"/> this command are being used.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.UpsertCommand.#ctor(System.String)">
+            <summary>
+            Prepare new command generation.
+            </summary>
+            <param name="table">Target table of the command</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.UpsertCommand.AddArgument(System.String,System.String)">
+            <summary>
+            add a <paramref name="column"/> that is being filled with a <paramref name="value"/> on
+            insert and update.
+            </summary>
+            <param name="column"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.UpsertCommand.AddArgumentOnlyInsert(System.String,System.String)">
+            <summary>
+            add a <paramref name="column"/> that is being filled with a <paramref name="value"/>
+            only on insert.
+            </summary>
+            <param name="column"></param>
+            <param name="value"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.UpsertCommand.AddKey(System.String,System.String)">
+            <summary>
+            Add a <paramref name="keyColumn"/>, that is being used to determine if an update or
+            insert is going to be used.
+            </summary>
+            <param name="keyColumn"></param>
+            <param name="keyValue"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.UpsertCommand.Execute">
+            <summary>
+            Execute this upsert command
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.UpsertCommand.ToString">
+            <summary>
+            Convert this command to a string making it ready for execution
+            </summary>
+            <returns>command string</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Objects.UpsertCommand.ToStringUsingSecondTable(System.String)">
+            <summary>
+            This is being used when moving values between two tables ( <see cref="F:Artikel_Import.src.Backend.Objects.UpsertCommand.table"/> and
+            <paramref name="table2"/>) rather than from scratch.
+            </summary>
+            <param name="table2">table that will be used to move data from</param>
+            <returns>oracle <see cref="T:Artikel_Import.src.Backend.SQL"/> command string</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.SqlColumn">
+            <summary>
+            Part of a <see cref="T:Artikel_Import.src.Backend.SqlTable"/> contains information on a tables column. Representation of
+            a column in the database;
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlColumn.dataLength">
+            <summary>
+            Maximum length of the columns. For <see cref="F:Artikel_Import.src.Backend.SqlColumn.dataType"/> VARCHAR2 it's the char count.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlColumn.dataScale">
+            <summary>
+            Positions after the comma for <see cref="F:Artikel_Import.src.Backend.SqlColumn.dataType"/> NUMBER.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlColumn.dataType">
+            <summary>
+            Data type of the column either VARCHAR2, NUMBER or DATE
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlColumn.isNullable">
+            <summary>
+            When true null can be inserted into the column
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlColumn.name">
+            <summary>
+            <see cref="T:System.String"/> representation of the column
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlColumn.tableName">
+            <summary>
+            <see cref="T:System.String"/> name of the <see cref="T:Artikel_Import.src.Backend.SqlTable"/> the column is in.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.#ctor(System.String,System.String,System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            Creates a new representation of a column
+            </summary>
+            <param name="name">of the column</param>
+            <param name="tableName">string name of the <see cref="T:Artikel_Import.src.Backend.SqlTable"/></param>
+            <param name="dataType"></param>
+            <param name="dataLength"></param>
+            <param name="dataScale"></param>
+            <param name="isNullable"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.#ctor(System.String,System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+            <summary>
+            Creates a new representation of a column
+            </summary>
+            <param name="name">of the column</param>
+            <param name="tableName">string name of the <see cref="T:Artikel_Import.src.Backend.SqlTable"/></param>
+            <param name="dataType"></param>
+            <param name="dataLength"></param>
+            <param name="dataScale"></param>
+            <param name="isNullable"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.Equals(Artikel_Import.src.Backend.SqlColumn)">
+            <summary>
+            Compares this column with the <paramref name="columnComparing"/>.
+            </summary>
+            <param name="columnComparing">the column to compare with</param>
+            <returns>if this column is equal to <paramref name="columnComparing"/></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.GetName">
+            <summary>
+            Returns the <see cref="F:Artikel_Import.src.Backend.SqlColumn.name"/> of this column
+            </summary>
+            <returns>string name</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.GetQueryString">
+            <summary>
+            Creates a string to add this column to a database, that can be executed by <see cref="T:Artikel_Import.src.Backend.SQL"/>.
+            </summary>
+            <returns>query string representation of this column</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.Insert">
+            <summary>
+            Inserts this column into the database using <see cref="T:Artikel_Import.src.Backend.SQL"/>.
+            </summary>
+            <returns>report of success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.Remove">
+            <summary>
+            Removes this column from the database using <see cref="T:Artikel_Import.src.Backend.SQL"/>.
+            </summary>
+            <returns>report of success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlColumn.ToString">
+            <summary>
+            <see cref="T:System.String"/> reference of the column.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Constants">
+            <summary>
+            Here are all values being stored that are not changing during runtime. ALl values that can
+            be changed by the user are saved in <see cref="T:Artikel_Import.Properties.Settings"/>.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.DatabasePassword">
+            <summary>
+            this is the database password for the oracle database. It's not being save in the <see
+            cref="T:Artikel_Import.Properties.Settings"/> due to the low security of settings
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.ErrorValue">
+            <summary>
+            When a function throws an error and the real value can't get returned, return this.
+            Value: ERROR
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.RequirePassword">
+            <summary>
+            When True: ask for database password before sending to runtime. Value: true
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableArtikel">
+            <summary>
+            Table in the rtDb where all the articles are being stored. Value: ARTIKEL
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableArtikelBeschreibung">
+            <summary>
+            Table in the rtDb where the long text descriptions of articles are being saved. Value: ARTIKELTEXT
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableEinkauf">
+            <summary>
+            Table in the rtDb where the articles depended on the supplier are being stored (not on
+            the article number). Value: EINKRABATT
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableImportArticles">
+            <summary>
+            Table in the tempDb where articles are being saved and prepared for the TableArtikel.
+            Value: ARTIKELIMPORT_ARTICLES
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableImportDictionary">
+            <summary>
+            Table where all the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> are being stored. Value: ARTIKELIMPORT_DICTIONARY
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableImportDiscounts">
+            <summary>
+            Table where all the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> of the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>
+            s are being stored. Value: ARTIKELIMPORT_DISCOUNTS
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableImportEinkauf">
+            <summary>
+            Table in the tempDb where articles depended on the supplier are being stored for the
+            TableEinkauf. Value: ARTIKELIMPORT_EINKAUF
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableImportFields">
+            <summary>
+            Table where all the Fields are being stored used for moving articles from the tempDb
+            into the rtDb. Value: ARTIKELIMPORT_FIELDS
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TableImportMappings">
+            <summary>
+            Table where all the <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s are being stored. Value: ARTIKELIMPORT_MAPPINGS
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TablePreisGruppen">
+            <summary>
+            Table in the rtDb where prices are being stored. Value: PREISGRUPPEN
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TabNameDictionary">
+            <summary>
+            the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageDictionary"/> gives the user the option to
+            choose different price units or units of measure for specific <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TabNameDiscounts">
+            <summary>
+            The <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageDiscounts"/> gives the user the ability to enter
+            a specific <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> and shows different discount groups for an mapping.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TabNameEditMapping">
+            <summary>
+            the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageEditMapping"/> shows <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/>
+            of a <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> and gives the user the ability to edit them.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TabNameFields">
+            <summary>
+            the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageFields"/> shows all <see cref="T:Artikel_Import.src.Backend.Objects.Field"/>,
+            their targets in the runtime database and a short description to the user the fields are
+            then used from the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> the field are also the columns in tables.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TabNameMappings">
+            <summary>
+            the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageMappings"/> shows all suppliers, supplier
+            specific price lists and supplier IDs to the user.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TabNameUpload">
+            <summary>
+            the <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageUpload"/> asks the user to choose the fitting
+            CSV file and to verify it before its upload.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.TabNameValues">
+            <summary>
+            The <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageValues"/> is opened when a mapping contains a
+            <see cref="T:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue"/> and gives the user the ability to
+            enter values before upload.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.isDebug">
+            <summary>
+            When isDebug is true, the test database will be used
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.CheckValueForPreisAufAnfrage">
+            <summary>
+            When there are Preisinfos where the Listenpreis is set to 'a.A.' then the database will contain CheckValueForPreisAufAnfrage as
+            Value and the Bezeichnung will be concated with " (9 Milliarden = Preis auf Anfrage!)
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Constants.ExcelExtensions">
+            <summary>
+            Possible endings of filenames when using Excel-Spreadsheets
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.CSV">
+            <summary>
+            Used for handling the CSV files on <see cref="T:Artikel_Import.src.Backend.ImportFromCsvToTempDb"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CSV.GetCsv(System.String)">
+            <summary>
+            Loads and splits the CSV from the <paramref name="path"/>. The CSV must be split by tabs[\t].
+            </summary>
+            <param name="path">Path of the CSV</param>
+            <returns>two dimensional string array of the cells</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CSV.GetHeaderRow(System.String)">
+            <summary>
+            Returns the first row of a CSV by loading it from a path.
+            </summary>
+            <remarks>If possible use <see cref="M:Artikel_Import.src.Backend.CSV.GetHeaderRow(System.String[][])"/> as it is more efficient</remarks>
+            <param name="path">Path to the CSV</param>
+            <returns>First row of the CSV</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CSV.GetHeaderRow(System.String[][])">
+            <summary>
+            Returns the first row of a CSV
+            </summary>
+            <param name="csv">CSV</param>
+            <returns>First row of the CSV</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CSV.Verify(System.String[],Artikel_Import.src.Backend.Objects.Mapping)">
+            <summary>
+            Verifies the header of the CSV with the <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s of the <see
+            cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>. Also tests if all <see cref="F:Artikel_Import.src.Backend.Objects.Mapping.essentialPairs"/> are in the
+            <paramref name="mapping"/>.
+            </summary>
+            <param name="headerRow">first row of the CSV</param>
+            <param name="mapping">the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> that is used to verify the csv</param>
+            <returns>
+            <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> array of missing pairs. Count = 0 when there is nothing missing
+            </returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.CSV.CleanLine(System.String)">
+            <summary>
+            Cleans the <paramref name="line"/> of a CSV to prevent errors.
+            </summary>
+            <param name="line">The line.</param>
+            <returns>A cleaned line.</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.ExportFromTempDbToRealDb">
+            <summary>
+            Moves articles from the temp database to the real time database using <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> s.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ExportFromTempDbToRealDb.Export(System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            This moves all articles form the TempDB to the runtime DB using the <see cref="T:Artikel_Import.src.Backend.Objects.Field"/>
+            s. If <paramref name="worker"/> or <paramref name="e"/> is null the export will be silent.
+            </summary>
+            <param name="worker">schedules the task in the background</param>
+            <param name="e">Worker arguments</param>
+            <returns>Report of success</returns>
+            <exception cref="T:System.Exception">if not all commands where executed successfully</exception>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.ImportFromCsvToTempDb">
+            <summary>
+            This class handles the importing of data from the <see cref="T:Artikel_Import.src.Backend.CSV"/> using a <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.ClearTempDatabase">
+            <summary>
+            Completely wipes the TempDatabase and removes every entry
+            </summary>
+            <returns>Report</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.GetNextArtikelNr(System.String,System.Int32)">
+            <summary>
+            Used for creating unique ArtikelNr string.
+            </summary>
+            <param name="artikelNr">last not unique artikelNr</param>
+            <param name="artikelNrIndex">the value that gets added to the artikelNr</param>
+            <returns>a unique ArtikelNr</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.GetValueForEachField(Artikel_Import.src.Backend.Objects.Mapping,System.String[],System.String[])">
+            <summary>
+            Creates a <see cref="T:System.Collections.Generic.Dictionary`2"/> that contains a value from the row for
+            each <see cref="T:Artikel_Import.src.Backend.Objects.Field"/>.
+            </summary>
+            <param name="mapping">that will be used to map the row to the <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> s</param>
+            <param name="header">used to map the row</param>
+            <param name="row">row of a CSV containing the values that will be put into the Dictionary</param>
+            <returns>contains a value from the row for each <see cref="T:Artikel_Import.src.Backend.Objects.Field"/></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.Import(Artikel_Import.src.Backend.Objects.Mapping,System.String,System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            Imports all the rows of a <see cref="T:Artikel_Import.src.Backend.CSV"/> from a <paramref name="csvPath"/> into the
+            TempDb using a <paramref name="mapping"/>. If <paramref name="worker"/> or <paramref
+            name="e"/> is null the import will be silent.
+            </summary>
+            <param name="worker">
+            schedules the task in the background, if not added the operation will be silent
+            </param>
+            <param name="e">Worker arguments, if not added the operation will be silent</param>
+            <param name="csvPath">Path to the CSV</param>
+            <param name="mapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> that fits the CSV headerRow</param>
+            <returns>Report of Success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.AddToErrorCsv(System.String[],System.String[],System.String,System.Collections.Generic.List{System.String[]})">
+            <summary>
+            Adds the <paramref name="row"/> to the <paramref name="errorCsv"/>. This will later be
+            saved in a error file.
+            </summary>
+            <param name="header">header of the CSV</param>
+            <param name="row">that cause the error</param>
+            <param name="error">Error message</param>
+            <param name="errorCsv">list with all the errors</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.GenerateMissingEAN(System.String,System.String,System.String)">
+            <summary>
+            Replace missing EANs with corresponding ones from runtime database via <paramref
+            name="pflegeNr"/> [article ID of data supplier] generate missing EANs from runtime
+            database via oracle sql
+            sequence: CREATE sequence generateEan_seq increment by 1 start with 1000000000000
+            nocache nocycle;
+            </summary>
+            <param name="pflegeNr">Pflegenummer</param>
+            <param name="supplierid">used for finding the EAN from the <see cref="F:Artikel_Import.src.Backend.Constants.TableArtikel"/></param>
+            <param name="supplierarticleid">used for finding the EAN from the <see cref="F:Artikel_Import.src.Backend.Constants.TableArtikel"/></param>
+            <returns>new generated EAN or EAN from <see cref="F:Artikel_Import.src.Backend.Constants.TableArtikel"/></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.WriteErrorCsv(System.Collections.Generic.List{System.String[]},System.String,System.Boolean)">
+            <summary>
+            Writes all rows that where added to <paramref name="errorCsv"/> into an error file.
+            </summary>
+            <param name="errorCsv">List of error lines</param>
+            <param name="csvPath">
+            Path of the CSV that created errors. Used for placing the error file
+            </param>
+            <param name="isSilent">if true, does not show any <see cref="T:Artikel_Import.src.Frontend.MessagePopUp"/> s</param>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.Setup">
+            <summary>
+            Used to prepare the application and checks if everything is correctly set up in order for
+            the application to work. Is being started by <see cref="T:Artikel_Import.src.Program"/> before the <see
+            cref="T:Artikel_Import.src.Frontend.MainForm"/> start.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.Setup.sqlTables">
+            <summary>
+            Collection of <see cref="T:Artikel_Import.src.Backend.SqlTable"/> that are needed for this application to run properly
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Setup.#ctor">
+            <summary>
+            Initialize the setup
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Setup.IsConnectedToDatabase">
+            <summary>
+            Checks if there is a connection to the database possible.
+            </summary>
+            <returns>true if connection is possible</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Setup.IsDatabaseSetup">
+            <summary>
+            Checks if the TempDb is setup.
+            </summary>
+            <returns>is the TempDb setup</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Setup.SetupDatabase">
+            <summary>
+            Sets up the TempDb. Creates all needed Tables.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.Setup.HasTable(Artikel_Import.src.Backend.SqlTable)">
+            <summary>
+            Checks database if it contains a <see cref="T:Artikel_Import.src.Backend.SqlTable"/> with the name of the table
+            <paramref name="neededTable"/>.
+            </summary>
+            <param name="neededTable">table that is needed</param>
+            <returns>does table exists</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.SQL">
+            <summary>
+            Connection to the OracleSQL Database used for any interaction between the program and the
+            database. Always returns a <see cref="T:Artikel_Import.src.Backend.Objects.SqlReport"/>, to show how the execution went.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.PreventSQLInjection(System.String)">
+            <summary>
+            Removes command chars in order to prevent a SQLInjection via values.
+            </summary>
+            <param name="value">the value that will get inserted into a query</param>
+            <returns>cleaned value</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.Close">
+            <summary>
+            close function
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.Connect">
+            <summary>
+            Opens connection to the Database.
+            </summary>
+            <returns>true when connection was created</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.Dispose">
+            <summary>
+            Closes the <see cref="F:Artikel_Import.src.Backend.SQL.con"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.ExecuteCommand(System.String)">
+            <summary>
+            Executes a single command.
+            </summary>
+            <param name="cmd">command</param>
+            <returns>report</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.ExecuteCommands(System.String[],System.Boolean,System.Boolean)">
+            <summary>
+            Executes multiple commands
+            </summary>
+            <param name="cmds">array of commands</param>
+            <param name="rollbackOnError"> if true, is there an error in any command, all will be rolled back</param>
+            <param name="isError">if true, on exception throws error instead of warning</param>
+            <returns>report</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.ExecuteCommands(System.String[],System.Windows.Forms.ProgressBar,System.Boolean)">
+            <summary>
+            Executes multiple commands and shows progress in a <paramref name="progressBar"/> and
+            the Task bar
+            </summary>
+            <param name="cmds">array of commands</param>
+            <param name="progressBar">to display progress</param>
+            <param name="rollbackOnError"> if true, is there an error in any command, all will be rolled back</param>
+            <returns>report</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.ExecuteCommands(System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs,System.String[],System.Boolean)">
+            <summary>
+            Executes multiple commands in the background using a <paramref name="worker"/>.
+            </summary>
+            <param name="worker">schedules task in the background</param>
+            <param name="e">arguments for the worker</param>
+            <param name="cmds">array of commands</param>
+            <param name="rollbackOnError"> if true, is there an error in any command, all will be rolled back</param>
+            <returns>report</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.ExecuteMultiLineQuery(System.String,System.Int32)">
+            <summary>
+            Executes multiple Queries used for retrieving data
+            </summary>
+            <param name="commandStr">query to be executed</param>
+            <param name="columns">amount of columns per query</param>
+            <returns>array of string array where every string array is for every result/row</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.ExecuteQuery(System.String,System.Int32)">
+            <summary>
+            Executes a single Query used for retrieving data
+            </summary>
+            <param name="commandStr">query to be executed</param>
+            <param name="responseIndex">column of the query that should get returned</param>
+            <returns>a string for every result/row</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.ExecuteQuery(System.String)">
+            <summary>
+            Executes a single Query used for retrieving data. Always returns the content of the
+            first column.
+            </summary>
+            <param name="commandStr">query to be executed</param>
+            <returns>a string for every result/row</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SQL.GetPflegeNr(System.String,System.String)">
+            <summary>
+            computes PflegeNr given data supplier ID and order ID
+            </summary>
+            <param name="dataSupplierID"></param>
+            <param name="orderID"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Backend.SqlTable">
+            <summary>
+            Representation of a table in the database. Has a <see cref="F:Artikel_Import.src.Backend.SqlTable.name"/> and contains <see
+            cref="T:Artikel_Import.src.Backend.SqlColumn"/> s.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlTable.columns">
+            <summary>
+            Collection of all <see cref="T:Artikel_Import.src.Backend.SqlColumn"/> s that are in this table
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Backend.SqlTable.name">
+            <summary>
+            <see cref="T:System.String"/> reference of this table.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.#ctor(System.String)">
+            <summary>
+            Loads table from the database. Fills <see cref="F:Artikel_Import.src.Backend.SqlTable.columns"/>;
+            </summary>
+            <param name="tableName"><see cref="F:Artikel_Import.src.Backend.SqlTable.name"/> of the table</param>
+            <returns>new SqlTable object</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.#ctor(System.String,Artikel_Import.src.Backend.SqlColumn[])">
+            <summary>
+            Creates a new SqlTable object with <paramref name="tableName"/> and <paramref name="columns"/>.
+            </summary>
+            <param name="tableName">name of the table</param>
+            <param name="columns"><see cref="T:Artikel_Import.src.Backend.SqlColumn"/> s of the table</param>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.GetSqlColumnsForImportArticles">
+            <summary>
+            Returns <see cref="T:Artikel_Import.src.Backend.SqlColumn"/> s that are needed in the TempDb <see
+            cref="F:Artikel_Import.src.Backend.Constants.TableImportArticles"/> using <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> s.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.GetSqlColumnsForImportEinkauf">
+            <summary>
+            Returns <see cref="T:Artikel_Import.src.Backend.SqlColumn"/> s that are needed in the TempDb <see
+            cref="F:Artikel_Import.src.Backend.Constants.TableImportEinkauf"/> using <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> s.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.MissingColumns(Artikel_Import.src.Backend.SqlTable,Artikel_Import.src.Backend.SqlTable)">
+            <summary>
+            Compares columns between tables and returns <see cref="T:Artikel_Import.src.Backend.SqlColumn"/> s of the <paramref
+            name="sqlTableNeeded"/> that are not in the <paramref name="sqlTable"/>.
+            </summary>
+            <param name="sqlTableNeeded">containing all columns</param>
+            <param name="sqlTable">might be missing columns</param>
+            <returns><see cref="T:Artikel_Import.src.Backend.SqlColumn"/> s if there are some missing or null</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.Equals(Artikel_Import.src.Backend.SqlTable)">
+            <summary>
+            Compares this <see cref="T:Artikel_Import.src.Backend.SqlTable"/> with another table.
+            </summary>
+            <param name="sqlTableComparing">the table to compare with</param>
+            <returns>if the table are equal</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.GetTableName">
+            <summary>
+            Returns the string <see cref="F:Artikel_Import.src.Backend.SqlTable.name"/> of the table
+            </summary>
+            <returns><see cref="F:Artikel_Import.src.Backend.SqlTable.name"/> of the table</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.Insert">
+            <summary>
+            Inserts the table with all its <see cref="T:Artikel_Import.src.Backend.SqlColumn"/> s into the database.
+            </summary>
+            <returns>report of success</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.GetColumn(System.String)">
+            <summary>
+            Returns a <see cref="T:Artikel_Import.src.Backend.SqlColumn"/> that has the name <paramref name="columnName"/>.
+            </summary>
+            <param name="columnName">name of the column that will get returned</param>
+            <returns>new column</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Backend.SqlTable.HasColumn(Artikel_Import.src.Backend.SqlColumn)">
+            <summary>
+            Checks if this table has the <paramref name="columnNeeded"/>.
+            </summary>
+            <param name="columnNeeded">the column to check for</param>
+            <returns>if table contains the <paramref name="columnNeeded"/></returns>
+        </member>
+        <member name="T:Artikel_Import.src.Frontend.MainFormHelper">
+            <summary>
+            A collection of static methods that get used by the <see cref="T:Artikel_Import.src.Frontend.MainForm"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.GetBackTab(System.String,System.Windows.Forms.TabPage[])">
+            <summary>
+            Returns the <see cref="T:System.Windows.Forms.TabPage"/> that should get displayed after pressing the <see cref="F:Artikel_Import.src.Frontend.MainForm.buttonBack"/>.
+            </summary>
+            <param name="selectedTab">Name of the currently selected <see cref="T:System.Windows.Forms.TabPage"/></param>
+            <param name="tabPages">Array of all <see cref="T:System.Windows.Forms.TabPage"/> s</param>
+            <returns>Next <see cref="T:System.Windows.Forms.TabPage"/> to display</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.GetNextTab(System.String,System.Windows.Forms.TabPage[])">
+            <summary>
+            Returns the next <see cref="T:System.Windows.Forms.TabPage"/> after pressing the <see cref="F:Artikel_Import.src.Frontend.MainForm.buttonNext"/>.
+            </summary>
+            <param name="selectedTab">Name of the currently selected <see cref="T:System.Windows.Forms.TabPage"/></param>
+            <param name="tabPages">Array of all <see cref="T:System.Windows.Forms.TabPage"/> s</param>
+            <returns>Next <see cref="T:System.Windows.Forms.TabPage"/> to display</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.GetTabPage(System.String,System.Windows.Forms.TabPage[])">
+            <summary>
+            Selects a <see cref="T:System.Windows.Forms.TabPage"/> by name from a tabPage array
+            </summary>
+            <param name="tabName">Name of the <see cref="T:System.Windows.Forms.TabPage"/> to return</param>
+            <param name="tabPages">Array of <see cref="T:System.Windows.Forms.TabPage"/> s</param>
+            <returns>Selected <see cref="T:System.Windows.Forms.TabPage"/></returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.LoadDictionaryList(Artikel_Import.src.Backend.Objects.Mapping,System.String,System.Windows.Forms.ListView,System.String,System.String)">
+            <summary>
+            Loads the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/> of the selected mapping into the <see cref="F:Artikel_Import.src.Frontend.MainForm.listViewDictionary"/>.
+            </summary>
+            <param name="selectedMapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> containing the dictionary</param>
+            <param name="selectedDictionaryName">Name of the <see cref="T:Artikel_Import.src.Backend.Objects.CustomDictionary"/></param>
+            <param name="listViewDictionary"><see cref="T:System.Windows.Forms.ListView"/> that will be displayed</param>
+            <param name="columnName">Name of the column the dictionary key is found in</param>
+            <param name="pathToCsv">Path to the CSV containing the dictionary keys</param>
+            <returns>Filled listView</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.LoadDiscountList(Artikel_Import.src.Backend.Objects.Mapping,System.Windows.Forms.ListView,System.String,System.String)">
+            <summary>
+            Loads the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> of the selected mapping into the <see cref="F:Artikel_Import.src.Frontend.MainForm.listViewDictionary"/>.
+            </summary>
+            <param name="selectedMapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> to display</param>
+            <param name="listViewDiscounts">
+            <see cref="T:System.Windows.Forms.ListView"/> that the <see cref="T:Artikel_Import.src.Backend.Objects.Discount"/> s will be displayed on
+            </param>
+            <param name="columnName">Nave of the column the discount key is found in</param>
+            <param name="pathToCsv">Path to the CSV containing the discount keys</param>
+            <returns>Filled listView</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.LoadFieldsList(System.Windows.Forms.ListView)">
+            <summary>
+            Load the <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> s into the <see cref="F:Artikel_Import.src.Frontend.MainForm.listViewFields"/>
+            </summary>
+            <param name="listViewFields">
+            <see cref="T:System.Windows.Forms.ListView"/> where the <see cref="T:Artikel_Import.src.Backend.Objects.Field"/> s will be displayed
+            </param>
+            <returns>Filled listView</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.LoadMappingsList(System.Windows.Forms.ListView)">
+            <summary>
+            Loads the <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> s into the <see cref="F:Artikel_Import.src.Frontend.MainForm.listViewMappings"/>
+            </summary>
+            <param name="listViewMappings"><see cref="T:System.Windows.Forms.ListView"/> that will be filled</param>
+            <returns>Filled listView</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.LoadPairsList(Artikel_Import.src.Backend.Objects.Mapping,System.Windows.Forms.ListView)">
+            <summary>
+            Loads the <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s into the <see cref="F:Artikel_Import.src.Frontend.MainForm.listViewPairs"/>
+            </summary>
+            <param name="selectedMapping">
+            <see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> that contains the <see cref="T:Artikel_Import.src.Backend.Objects.Pair"/> s
+            </param>
+            <param name="listViewPairs"><see cref="T:System.Windows.Forms.ListView"/> that will be filled</param>
+            <returns>Filled listView</returns>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainFormHelper.LoadValuesList(Artikel_Import.src.Backend.Objects.Mapping,System.Windows.Forms.ListView)">
+            <summary>
+            Loads the <see cref="T:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue"/> s into the <see cref="F:Artikel_Import.src.Frontend.MainForm.listViewValues"/>
+            </summary>
+            <param name="selectedMapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> that contains the <see cref="T:Artikel_Import.src.Backend.Objects.PairTypes.PairChangingFixedValue"/></param>
+            <param name="listViewValues"><see cref="T:System.Windows.Forms.ListView"/> that will be filled</param>
+            <returns>Filled listView</returns>
+        </member>
+        <member name="T:Artikel_Import.src.Frontend.MessagePopUp">
+            <summary>
+            Pop up form that gets displayed on top of the main form to display an urgent message
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MessagePopUp.#ctor(System.String)">
+            <summary>
+            This Form is being used to display a <paramref name="message"/> on top of the <see cref="T:Artikel_Import.src.Frontend.MainForm"/>
+            </summary>
+            <param name="message">the string being displayed</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MessagePopUp.#ctor(System.String,System.Int32)">
+            <summary>
+            This Form is being used to display a <paramref name="message"/> on top of the the <see
+            cref="T:Artikel_Import.src.Frontend.MainForm"/>. It automatically closes itself after <paramref name="dispalyTime"/> seconds.
+            </summary>
+            <param name="message">text that will be displayed</param>
+            <param name="dispalyTime">amount of seconds the forms should be displayed</param>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.MessagePopUp.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MessagePopUp.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MessagePopUp.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Frontend.ConfirmationPopUp">
+            <summary>
+            This Form is being displayed before executing actions with big impact
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.ConfirmationPopUp.confirmed">
+            <summary>
+            Does the user want to continue the action
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ConfirmationPopUp.#ctor(System.String)">
+            <summary>
+            This Form is being displayed before executing actions with big impact
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.ConfirmationPopUp.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ConfirmationPopUp.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ConfirmationPopUp.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Frontend.EnterValuePopUp">
+            <summary>
+            Form used to enter a value
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.EnterValuePopUp.value">
+            <summary>
+            the value the user choose
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.EnterValuePopUp.#ctor(System.String)">
+            <summary>
+            This Form is being displayed, so the user can enter a value
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.EnterValuePopUp.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.EnterValuePopUp.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.EnterValuePopUp.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Frontend.MainForm">
+            <summary>
+            Main Form of the application. Started by <see cref="T:Artikel_Import.src.Program"/>.
+            </summary>
+            <summary>
+            The main Form of the program responsible for all of the user interaction
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.#ctor">
+            <summary>
+            Main Form of the application. Started by <see cref="T:Artikel_Import.src.Program"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.ButtonDictionaryDelete_Click(System.Object,System.EventArgs)">
+            <summary>
+            For <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageDictionary"/>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.ButtonDiscountsCreateNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            For <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageDiscounts"/>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.ButtonFieldCreateNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            For <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageFields"/>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.ButtonMappingsCreateNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            For <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageMappings"/>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.ButtonPairCreateNew_Click(System.Object,System.EventArgs)">
+            <summary>
+            For <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageEditMapping"/>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.FillBoxesEditMapping(Artikel_Import.src.Backend.Objects.Pair)">
+            <summary>
+            Fills the textBox, comboBox, ect. with values of the <paramref name="pair"/>.
+            </summary>
+            <param name="pair">containing info to be filled</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.ButtonUpload_Click(System.Object,System.EventArgs)">
+            <summary>
+            For <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageUpload"/>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.ButtonValuesSave_Click(System.Object,System.EventArgs)">
+            <summary>
+            For <see cref="F:Artikel_Import.src.Frontend.MainForm.tabPageValues"/>
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.MainForm.components">
+            <summary>
+            Erforderliche Designervariable.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.Dispose(System.Boolean)">
+            <summary>
+            Verwendete Ressourcen bereinigen.
+            </summary>
+            <param name="disposing">True, wenn verwaltete Ressourcen gelöscht werden sollen; andernfalls False.</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.MainForm.InitializeComponent">
+            <summary>
+            Erforderliche Methode für die Designerunterstützung.
+            Der Inhalt der Methode darf nicht mit dem Code-Editor geändert werden.
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Frontend.PreviewForm">
+            <summary>
+            Previews a row of an CSV using a mapping in a eNVenta simulation
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.PreviewForm.#ctor(System.Collections.Generic.Dictionary{System.String,System.String})">
+            <summary>
+            Initialize a new PreviewForm using a fieldValue dictionary
+            </summary>
+            <param name="fieldValuePairs">String Dictionary of field name and value</param>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.PreviewForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.PreviewForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.PreviewForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Frontend.ProgressPopUp">
+            <summary>
+            Used for displaying progress when importing or exporting. Hosts a <see
+            cref="T:System.ComponentModel.BackgroundWorker"/> that can be canceled.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.ProgressPopUp.Export">
+            <summary>
+            Used to signal the <see cref="T:Artikel_Import.src.Frontend.ProgressPopUp"/> that it will export. Value: EXPORT
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.ProgressPopUp.Import">
+            <summary>
+            Used to signal the <see cref="T:Artikel_Import.src.Frontend.ProgressPopUp"/> that it will import. Value: IMPORT
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.ProgressPopUp.RenameArticles">
+            <summary>
+            Used to signal the <see cref="T:Artikel_Import.src.Frontend.ProgressPopUp"/> that it will import. Value: IMPORT
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.#ctor(System.String,Artikel_Import.src.Backend.Objects.Mapping,System.String)">
+            <summary>
+            Create a new ProgressPopUp for importing. Starts <see
+            cref="M:Artikel_Import.src.Backend.ImportFromCsvToTempDb.Import(Artikel_Import.src.Backend.Objects.Mapping,System.String,System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)"/>
+            </summary>
+            <param name="task">has to be <see cref="F:Artikel_Import.src.Frontend.ProgressPopUp.Import"/></param>
+            <param name="mapping"><see cref="T:Artikel_Import.src.Backend.Objects.Mapping"/> that fits the CSV headerRow</param>
+            <param name="csvPath">Path to the CSV</param>
+            <exception cref="T:System.Exception">when <paramref name="task"/> has the wrong value</exception>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.#ctor(System.String)">
+            <summary>
+            Create a new ProgressPopUp for exporting. Starts <see
+            cref="M:Artikel_Import.src.Backend.ExportFromTempDbToRealDb.Export(System.ComponentModel.BackgroundWorker,System.ComponentModel.DoWorkEventArgs)"/>.
+            </summary>
+            <param name="task">has to be <see cref="F:Artikel_Import.src.Frontend.ProgressPopUp.Export"/></param>
+            <exception cref="T:System.Exception">when <paramref name="task"/> has the wrong value</exception>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.BackgroundWorker_DoWork(System.Object,System.ComponentModel.DoWorkEventArgs)">
+            <summary>
+            This event handler is where the actual, potentially time-consuming work is done.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+            <exception cref="T:System.Exception">when an unknown argument was given</exception>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.BackgroundWorker_ProgressChanged(System.Object,System.ComponentModel.ProgressChangedEventArgs)">
+            <summary>
+            This event handler updates the progress bar.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.BackgroundWorker_RunWorkerCompleted(System.Object,System.ComponentModel.RunWorkerCompletedEventArgs)">
+            <summary>
+            This event handler deals with the results of the background operation.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.ButtonCancel_Click(System.Object,System.EventArgs)">
+            <summary>
+            Cancels the task the <see cref="F:Artikel_Import.src.Frontend.ProgressPopUp.backgroundWorker"/> executes.
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.InitializeBackgroundWorker">
+            <summary>
+            Set up the BackgroundWorker object by attaching event handlers.
+            </summary>
+        </member>
+        <member name="F:Artikel_Import.src.Frontend.ProgressPopUp.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:Artikel_Import.src.Frontend.ProgressPopUp.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:Artikel_Import.src.Program">
+             <summary>
+             If any questions come up please read the ReadMe.md on https://github.com/inha-gmbh/Artikel-Import
+             please make sure to keep this code documented and update the documentation in the read me :)
+            
+             https://github.com/inha-gmbh/Artikel-Import/blob/master/README.md
+            
+             Entry point of the application starting <see cref="T:Artikel_Import.src.Frontend.MainForm"/>. On Exception it sends an E-Mail to the address saved in the settings.
+             </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Program.Automatic">
+            <summary>
+            Executes the whole program automatically. Settings are set in <see cref="P:Artikel_Import.Properties.Settings.Default"/>.
+            </summary>
+        </member>
+        <member name="M:Artikel_Import.src.Program.Main(System.String[])">
+            <summary>
+            Import of the application.
+            </summary>
+        </member>
+    </members>
+</doc>
